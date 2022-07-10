@@ -84,6 +84,9 @@
     border-radius: 50px;
     box-shadow: 0px 5px 8px 0px #CFCFCF;
   }
+  .header-infos__button:hover {
+    background: linear-gradient(#9356DC, #FF79DA);
+  }
   .rules {
     display: flex;
     flex-direction: column;
@@ -239,6 +242,9 @@
     text-decoration: none;
     margin: 0px 0px 10px 20px;
     font-size: 95%;
+  }
+  .footer-lien a:hover {
+    color: #FF79DA;
   }
   .footer-lien .fa-utensils {
     margin-right: 14px;
