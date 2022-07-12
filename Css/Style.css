@@ -144,7 +144,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    animation: loadbody 3s forwards;
+    animation: loadbody 3s;
   }
   header {
     width: 100%;
@@ -308,6 +308,17 @@
     margin: 0;
     padding: 0px 0px 0px 10px;
   }
+  .resto-card__new {
+    position: relative;
+    top: -240px;
+    left: 240px;
+    width: 80px;
+    padding: 5px 0px 5px 0px;
+    font-size: 10px;
+    text-align: center;
+    color: #008766;
+    background-color: #99E2D0;
+  }
   .resto-card .fa-heart {
     color: #fff;
     -webkit-text-stroke-width: 1px;
@@ -321,6 +332,7 @@
   .resto-card .fa-heart:hover {
     background: linear-gradient(to bottom left, #9356DC, #FF79DA);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 0;
   }
