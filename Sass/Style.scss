@@ -17,7 +17,13 @@
 
 @media screen and (max-width: 767px){
 
-/*loader*/
+    body{
+        width: auto;
+        h1,h2{
+            margin: 0;
+        }
+    }
+    /*loader*/
     @keyframes spinner{
         0%{opacity: 1;}
         100%{opacity: 0;}
@@ -36,7 +42,6 @@
         background: #9356DC;
         animation: loadspin 3s forwards;
         }
-
     .loading-spinner{
         width: 100%;
         height: 100%;
@@ -113,14 +118,7 @@
             background: #ff79da;
         }    
     }
-    body{
-    width: auto;
-    }
-    
-    h1,h2{
-        margin: 0;
-    }
-
+    /*Page d'accueil*/
     @keyframes loadbody {
         0%{opacity: 0;}
         99.99%{opacity: 0;}

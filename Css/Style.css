@@ -16,6 +16,12 @@
   src: url("/Fonts/Shrikhand-Regular.otf");
 }
 @media screen and (max-width: 767px) {
+  body {
+    width: auto;
+  }
+  body h1, body h2 {
+    margin: 0;
+  }
   /*loader*/
   @keyframes spinner {
     0% {
@@ -121,12 +127,7 @@
     animation-delay: 0s;
     background: #ff79da;
   }
-  body {
-    width: auto;
-  }
-  h1, h2 {
-    margin: 0;
-  }
+  /*Page d'accueil*/
   @keyframes loadbody {
     0% {
       opacity: 0;
