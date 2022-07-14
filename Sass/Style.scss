@@ -132,16 +132,16 @@
         left: 0;
         animation: loadbody 3s;
     }
-
-    header{
+        /*Accueil - Header*/
+    .header-accueil{
         width: 100%;
     }
 
     .header-logo{
         text-align: center;
         &__img{
-            width: 45%;
-            margin: 15px 0px 10px 0px;
+            width: 160px;
+            margin: 25px 0px 15px 0px;
         }
     }
     .header-position{
@@ -199,7 +199,7 @@
             }
         }
     }
-
+        /*Accueil - Informations*/
     .rules{
         display: flex;
         flex-direction: column;
@@ -252,7 +252,7 @@
         border-radius: 15px;
         overflow: visible;
     }
-
+        /*Accueil - Liste restaurants*/
     .resto{
         display: flex;
         flex-direction: column;
@@ -326,6 +326,7 @@
             -webkit-text-stroke-width: 0;
         }
     }
+            /*Images - Tailles et position*/
     #Palette-goût-accueil{
         width: 100%;
         object-fit: cover;
@@ -346,7 +347,7 @@
         object-fit: cover;
         object-position: 1px -50px;
     }
-
+        /*Footer*/
     footer{
         display: flex;
         flex-direction: column;
@@ -358,7 +359,7 @@
             color: #fff;
             font-weight: normal;
             font-size: 115%;
-            margin: 20px 0px 20px 20px;
+            padding: 20px 0px 20px 20px;
         }
     }
     .footer-lien{
@@ -381,4 +382,150 @@
             margin-right: 12px;
         }
     }
+
+    /*Pages menus*/
+        /*Menus - Header*/
+    .header-menu{
+        width: 100%;
+    } 
+    .fa-arrow-left{
+        position: relative;
+        top: 40px;
+        left: 20px;
+        color: #353535;
+    }
+    /*Menus*/
+    .menu{
+        width: 100%;
+        height: 1420px;
+    }
+        /*Menus - Header*/
+    .menu-header{
+        width: 100%;
+        height: 275px;
+        overflow: hidden;
+    }
+    #La-française-menu{
+        width: 110%;
+        object-fit: cover;
+        object-position: -20px 0px;
+    }
+    #Note-enchantée-menu{
+        width: 100%;
+        object-fit: cover;
+        object-position: 0px -110px;
+    }
+    #Palette-goût-menu{
+        width: 110%;
+        object-fit: cover;
+        object-position: -20px -10px;
+    }
+    #Délice-sens-menu{
+        width: 100%;
+        object-fit: cover;
+        object-position: 0px 0px;
+    }
+        /*Menu - Liste*/
+    .menu-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: -40px;
+        width: 100%;
+        height: 1180px;
+        border-radius: 40px 40px 0px 0px;
+        background-color: #F6F6F6;
+    }
+    .menu-name{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        &__title{
+        font-family: 'Shrikhand', serif;
+        font-size: 28px;
+        padding: 30px 0px 20px 20px;
+        }
+        .fa-heart{
+            color: #fff;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+            font-size: 150%;
+            padding: 30px 40px 20px 0px;
+            cursor: pointer;
+        }
+        .fa-heart:hover{
+            background: linear-gradient(to bottom left, #9356DC, #FF79DA);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 0;
+        }
+    }
+        /*Menus - Entrées*/
+    .menu-entrées{
+        
+    }
+    .menu-title{
+        font-family: 'Roboto-thin', serif;
+        font-size: 11px;
+        padding: 15px 0px 5px 0px;
+        margin: 0px 0px 15px 20px;
+        width: 40px;
+        border-bottom: 2px solid #99E2D0;
+    }
+    .menu-select{
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+        height: 70px;
+        margin: 0px 10px 15px 10px;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        box-shadow: 0px 5px 8px 0px #CFCFCF;
+    }
+    .menu-container1{
+        margin: 15px 0px 10px 10px;
+        &__title{
+            font-family: 'Roboto-black', serif;
+            font-size: 18px;
+            margin: 0;
+        }
+        &__accompagnement{
+            font-family: 'Roboto-regular', serif;
+            font-size: 15px;
+            margin: 0;
+            padding-top: 5px;
+        }
+    }
+    .menu-container2{
+        display: flex;
+        justify-content: space-between;
+        &__prix{
+            font-family: 'Roboto-black', serif;
+            margin: 0;
+            padding: 40px 20px 10px 0px;
+        }
+        .fa-circle-check{
+            color: #FFFFFF;
+            font-size: 140%;
+            padding: 25px 20px 20px 20px;
+            background-color: #99E2D0;
+            border-radius: 0px 15px 15px 0px;
+        }
+    }
+    .menu-button{
+        font-family: 'Roboto-regular', serif;
+        font-size: 15px;
+        color: #fff;
+        text-decoration: none;
+        margin: 30px 0px 50px 0px;
+        padding: 13px 45px 13px 45px;
+        background: linear-gradient(#FF79DA, #9356DC);
+        border-radius: 50px;
+        box-shadow: 0px 5px 8px 0px #CFCFCF;
+        &:hover{
+            background: linear-gradient(#9356DC, #FF79DA);
+        }
+}
 }
