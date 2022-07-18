@@ -484,44 +484,77 @@
     border-bottom: 2px solid #99E2D0;
   }
   .menu-select {
-    display: flex;
-    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
     width: 350px;
     height: 70px;
     margin: 0px 10px 15px 10px;
     background-color: #FFFFFF;
     border-radius: 15px;
     box-shadow: 0px 5px 8px 0px #CFCFCF;
+    cursor: pointer;
   }
-  .menu-container1 {
-    margin: 15px 0px 10px 10px;
+  .menu-select:hover .menu-select__title {
+    width: 210px;
   }
-  .menu-container1__title {
-    font-family: "Roboto-black", serif;
+  .menu-select:hover .menu-select__prix {
+    transform: translate(0px);
+  }
+  .menu-select:hover .menu-select__check {
+    transform: translate(0px);
+  }
+  .menu-select:hover .fa-circle-check {
+    transform: rotate(360deg);
+  }
+  .menu-select__title {
+    font-family: "Roboto-regular", serif;
     font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    padding: 10px 0px 0px 10px;
+    line-height: 26px;
+    transition: width 0.5s linear;
+  }
+  .menu-select__title > span {
+    font-size: 15px;
+    font-weight: normal;
     margin: 0;
   }
-  .menu-container1__accompagnement {
+  .menu-select__prix {
     font-family: "Roboto-regular", serif;
     font-size: 15px;
-    margin: 0;
-    padding-top: 5px;
-  }
-  .menu-container2 {
-    display: flex;
-    justify-content: space-between;
-  }
-  .menu-container2__prix {
-    font-family: "Roboto-black", serif;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    left: 240px;
     margin: 0;
     padding: 40px 20px 10px 0px;
+    transform: translate(60px);
+    transition: transform 0.5s linear;
   }
-  .menu-container2 .fa-circle-check {
-    color: #FFFFFF;
-    font-size: 140%;
-    padding: 25px 20px 20px 20px;
+  .menu-select__check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 290px;
+    width: 60px;
+    height: 70px;
     background-color: #99E2D0;
     border-radius: 0px 15px 15px 0px;
+    transform: translate(60px);
+    transition: transform 0.5s linear;
+  }
+  .menu-select .fa-circle-check {
+    color: #FFFFFF;
+    font-size: 140%;
+    transform: rotate(0deg);
+    transition: transform 0.5s linear;
   }
   .menu-button {
     font-family: "Roboto-regular", serif;

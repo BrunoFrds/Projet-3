@@ -463,9 +463,6 @@
         }
     }
         /*Menus - Entrées*/
-    .menu-entrées{
-        
-    }
     .menu-title{
         font-family: 'Roboto-thin', serif;
         font-size: 11px;
@@ -475,46 +472,80 @@
         border-bottom: 2px solid #99E2D0;
     }
     .menu-select{
-        display: flex;
-        justify-content: space-between;
+        position: relative;
+        overflow: hidden;
         width: 350px;
         height: 70px;
         margin: 0px 10px 15px 10px;
         background-color: #FFFFFF;
         border-radius: 15px;
         box-shadow: 0px 5px 8px 0px #CFCFCF;
-    }
-    .menu-container1{
-        margin: 15px 0px 10px 10px;
-        &__title{
-            font-family: 'Roboto-black', serif;
-            font-size: 18px;
-            margin: 0;
+        cursor: pointer;
+        &:hover .menu-select__title{
+            width: 210px;
         }
-        &__accompagnement{
+        &:hover .menu-select__prix{
+            transform: translate(0px);
+        }
+        &:hover .menu-select__check{
+            transform: translate(0px);
+        }
+        &:hover .fa-circle-check{
+            transform: rotate(360deg);
+        }
+        &__title{
+            font-family: 'Roboto-regular', serif;
+            font-size: 18px;
+            font-weight: bold;
+            width: 300px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin: 0;
+            padding: 10px 0px 0px 10px;
+            line-height: 26px;
+            transition: width .5s linear;
+            > span{
+                font-size: 15px;
+                font-weight: normal;
+                margin: 0;
+            }
+        }
+        &__prix{
             font-family: 'Roboto-regular', serif;
             font-size: 15px;
-            margin: 0;
-            padding-top: 5px;
-        }
-    }
-    .menu-container2{
-        display: flex;
-        justify-content: space-between;
-        &__prix{
-            font-family: 'Roboto-black', serif;
+            font-weight: bold;
+            position: absolute;
+            top: 0px;
+            left: 240px;
             margin: 0;
             padding: 40px 20px 10px 0px;
+            transform: translate(60px);
+            transition: transform .5s linear;
         }
-        .fa-circle-check{
-            color: #FFFFFF;
-            font-size: 140%;
-            padding: 25px 20px 20px 20px;
+        &__check{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 0px;
+            left: 290px;
+            width: 60px;
+            height: 70px;
             background-color: #99E2D0;
             border-radius: 0px 15px 15px 0px;
+            transform: translate(60px);
+            transition: transform .5s linear;
         }
+        .fa-circle-check{
+        color: #FFFFFF;
+        font-size: 140%;
+        transform: rotate(0deg);
+        transition: transform .5s linear;
+        }
+
     }
-    .menu-button{
+        .menu-button{
         font-family: 'Roboto-regular', serif;
         font-size: 15px;
         color: #fff;
