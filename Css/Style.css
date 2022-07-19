@@ -475,7 +475,7 @@
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 0;
   }
-  /*Menus - Entrées*/
+  /*Menus*/
   .menu-title {
     font-family: "Roboto-thin", serif;
     font-size: 11px;
@@ -557,6 +557,7 @@
     transform: rotate(0deg);
     transition: transform 0.5s linear;
   }
+  /*Menu - Bouton commander*/
   .menu-button {
     font-family: "Roboto-regular", serif;
     font-size: 15px;
@@ -570,5 +571,50 @@
   }
   .menu-button:hover {
     background: linear-gradient(#9356DC, #FF79DA);
+  }
+  /*Menu - Animations*/
+  @keyframes menuprogress {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .menu-entrées {
+    animation: menuprogress 1s;
+  }
+  .menu-plats {
+    animation: menuprogress 1s 1.5s backwards;
+  }
+  .menu-desserts {
+    animation: menuprogress 1s 3s backwards;
+  }
+  .delay-entrée1 {
+    animation: menuprogress 1s;
+  }
+  .delay-entrée2 {
+    animation: menuprogress 1s 0.5s backwards;
+  }
+  .delay-entrée3 {
+    animation: menuprogress 1s 1s backwards;
+  }
+  .delay-plat1 {
+    animation: menuprogress 1s 1.5s backwards;
+  }
+  .delay-plat2 {
+    animation: menuprogress 1s 2s backwards;
+  }
+  .delay-plat3 {
+    animation: menuprogress 1s 2.5s backwards;
+  }
+  .delay-dessert1 {
+    animation: menuprogress 1s 3s backwards;
+  }
+  .delay-dessert2 {
+    animation: menuprogress 1s 3.5s backwards;
+  }
+  .delay-dessert3 {
+    animation: menuprogress 1s 4s backwards;
   }
 }/*# sourceMappingURL=Style.css.map */
