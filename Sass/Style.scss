@@ -570,37 +570,40 @@
     .menu-entrées{
         animation: menuprogress 1s;
     }
-    .menu-plats{
-        animation: menuprogress 1s 1.5s backwards;
-    }
-    .menu-desserts{
-        animation: menuprogress 1s 3s backwards;
-    }
     .delay-entrée1{
-        animation: menuprogress 1s;
-    }
-    .delay-entrée2{
         animation: menuprogress 1s 0.5s backwards;
     }
-    .delay-entrée3{
+    .delay-entrée2{
         animation: menuprogress 1s 1s backwards;
     }
-    .delay-plat1{
+    .delay-entrée3{
         animation: menuprogress 1s 1.5s backwards;
     }
-    .delay-plat2{
+    .menu-plats,.delay-entrée4{
         animation: menuprogress 1s 2s backwards;
     }
-    .delay-plat3{
+    .delay-plat1,.delay-plat{
         animation: menuprogress 1s 2.5s backwards;
     }
-    .delay-dessert1{
+    .delay-plat2,.delay-plat1bis{
         animation: menuprogress 1s 3s backwards;
     }
-    .delay-dessert2{
+    .delay-plat3,.delay-plat2bis{
         animation: menuprogress 1s 3.5s backwards;
     }
-    .delay-dessert3{
+    .menu-desserts,.delay-plat3bis{
         animation: menuprogress 1s 4s backwards;
+    }
+    .delay-dessert1,.delay-dessert{
+        animation: menuprogress 1s 4.5s backwards;
+    }
+    .delay-dessert2,.delay-dessert1bis{
+        animation: menuprogress 1s 5s backwards;
+    }
+    .delay-dessert3,.delay-dessert2bis{
+        animation: menuprogress 1s 5.5s backwards;
+    }
+    .delay-dessert3bis{
+        animation: menuprogress 1s 6s backwards;
     }
 }
