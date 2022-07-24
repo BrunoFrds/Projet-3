@@ -1,15 +1,8 @@
 @import "Base/Typography";
 @import "Base/Variables";
 @import "Base/Loader";
+@import "Base/Reset";
 @import "Pages/Header";
 @import "Pages/Footer";
 @import "Pages/Accueil";
 @import "Pages/Menu";
-
-body{
-    width: auto;
-    margin: 0;
-    h1,h2{
-        margin: 0;
-    }
-}

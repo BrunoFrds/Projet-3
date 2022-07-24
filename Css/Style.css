@@ -119,6 +119,13 @@
   background: #FF79DA;
 }
 
+body {
+  margin: 0;
+}
+body h1, body h2 {
+  margin: 0;
+}
+
 .header-logo {
   display: flex;
   justify-content: center;
@@ -624,12 +631,4 @@ footer h1 {
 
 .delay-dessert3bis {
   animation: menuprogress 1s 6s backwards;
-}
-
-body {
-  width: auto;
-  margin: 0;
-}
-body h1, body h2 {
-  margin: 0;
 }/*# sourceMappingURL=Style.css.map */
