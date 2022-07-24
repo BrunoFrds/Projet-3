@@ -115,7 +115,9 @@
     }
 
     .header-logo{
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         &__img{
             width: 160px;
             margin: 25px 0px 15px 0px;
