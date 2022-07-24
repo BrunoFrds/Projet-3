@@ -1,0 +1,204 @@
+/*Header*/
+.header-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEAEA;
+    box-shadow: inset 0px 5px 5px -2px #D4D4D4;
+    .fa-location-dot{
+        display: inline-block;
+        position: relative;
+        top: -2px;
+        left: -15px;
+        color: #353535;
+    }
+    &__location{
+        color: #353535;
+        font-family: 'Roboto-regular', serif;
+        font-weight: bold;
+    }
+}
+.header-infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 55px;
+    background-color: $background;
+    &__title{
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Roboto-black', serif;
+    margin: 0;
+    padding: 35px 50px 0px 50px;
+    }
+    &__paragraph{
+        text-align: center;
+        font-family: 'Roboto-regular', serif;
+        font-size: 110%;
+        color: #767676;
+        margin: 15px 0px 30px 0px;
+    }
+    &__button{
+        width: 175px;
+        font-family: 'Roboto-regular', serif;
+        color: #fff;
+        text-decoration: none;
+        font-size: 100%;
+        padding: 15px 25px 15px 25px;
+        background: linear-gradient($secondary, $primary);
+        border-radius: 50px;
+        box-shadow: 0px 5px 8px 0px $shadow;
+        &:hover{
+            background: linear-gradient($primary, $secondary);
+        }
+    }
+}
+/*Informations*/
+.rules{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 440px;
+}
+.rules-title{
+    font-family: 'Roboto-black', serif;
+    margin: 0;
+    padding: 40px 0px 35px 20px;
+}
+.rules-list{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto-regular', serif;
+    &__text{
+        display: flex;
+        align-items: center;
+        background-color: $background;
+        border-radius: 20px;
+        box-shadow: 0px 5px 8px 0px $shadow;
+        height: 70px;
+        font-weight: bold;
+        margin: 0px 20px 30px 25px;
+        cursor: default;
+        .fa-solid{
+            color: #7E7E7E;
+            padding: 0px 30px 0px 10px;
+            }
+        &:hover{
+            background-color: #F5EDFF;
+            .fa-solid{
+                color: $primary;
+            }
+        }
+    }
+}
+.rules-list__number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -13px;
+    color: #fff;
+    background-color: $primary;
+    font-size: 85%;
+    font-family: 'Roboto-thin', serif;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    overflow: visible;
+}
+/*Liste restaurants*/
+.resto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1230px;
+    background-color: $background;
+}
+.resto-title{
+    font-family: 'Roboto-black', serif;
+    margin: 0;
+    padding: 45px 0px 0px 20px;
+}
+.resto-grid{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.resto-card{
+    overflow: hidden;
+    width: 337px;
+    height: 250px;
+    font-family: 'Roboto-regular', serif;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 5px 8px 0px $shadow;
+    margin-bottom: 20px;
+    a{
+        text-decoration: none;
+        color: #000000;    
+    }
+    &__img{
+        height: 175px;
+        margin: 0;
+        overflow: hidden;
+    }
+    &__title{
+        font-size: 80%;
+        font-family: 'Roboto-black', serif;
+        padding: 10px 0px 5px 10px;
+    }
+    &__location{
+        margin: 0;
+        padding: 0px 0px 0px 10px;
+    }
+    &__new{
+        position: relative;
+        top: -240px;
+        left: 240px;
+        width: 80px;
+        padding: 5px 0px 5px 0px;
+        font-size: 10px;
+        text-align: center;
+        color: #008766;
+        background-color: $tertiary;
+    }
+    .fa-heart{
+        color: #fff;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        position: relative;
+        top: -40px;
+        left: 285px;
+        font-size: 150%;
+        cursor: pointer;
+    }
+    .fa-heart:hover{
+        background: linear-gradient(to bottom left, $primary, $secondary);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 0;
+    }
+}
+/*Images - Tailles et position*/
+#Palette-goût-accueil{
+    width: 100%;
+    object-fit: cover;
+    object-position: 1px -50px;
+}
+#Note-enchantée-accueil{
+    width: 100%;
+    object-fit: cover;
+    object-position: 1px -150px;
+}
+#La-française-accueil{
+    width: 100%;
+    object-fit: cover;
+    object-position: 1px -50px;
+}
+#Délice-sens-accueil{
+    width: 100%;
+    object-fit: cover;
+    object-position: 1px -50px;
+}
