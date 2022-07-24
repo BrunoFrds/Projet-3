@@ -15,6 +15,110 @@
   font-family: "Shrikhand";
   src: url("/Fonts/Shrikhand-Regular.otf");
 }
+@keyframes loadspin {
+  0%, 90% {
+    opacity: 1;
+    z-index: 20;
+  }
+  0%, 100% {
+    height: 100%;
+    width: 100%;
+  }
+}
+@keyframes spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.parent-spinner {
+  position: fixed;
+  width: 0;
+  height: 0;
+  background: #9356DC;
+  opacity: 0;
+  animation: loadspin 3s;
+}
+
+.loading-spinner {
+  width: 100%;
+  height: 100%;
+  background: #9356DC;
+}
+.loading-spinner div {
+  box-sizing: content-box;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  animation: spinner 1s linear infinite;
+  width: 12px;
+  height: 24px;
+  border-radius: 6px/12px;
+  transform-origin: 6px 52px;
+}
+.loading-spinner .spin1 {
+  transform: rotate(0deg);
+  animation-delay: -0.9166666667s;
+  background: #FF79DA;
+}
+.loading-spinner .spin2 {
+  transform: rotate(30deg);
+  animation-delay: -0.8333333333s;
+  background: #FF79DA;
+}
+.loading-spinner .spin3 {
+  transform: rotate(60deg);
+  animation-delay: -0.75s;
+  background: #FF79DA;
+}
+.loading-spinner .spin4 {
+  transform: rotate(90deg);
+  animation-delay: -0.6666666667s;
+  background: #FF79DA;
+}
+.loading-spinner .spin5 {
+  transform: rotate(120deg);
+  animation-delay: -0.5833333333s;
+  background: #FF79DA;
+}
+.loading-spinner .spin6 {
+  transform: rotate(150deg);
+  animation-delay: -0.5s;
+  background: #FF79DA;
+}
+.loading-spinner .spin7 {
+  transform: rotate(180deg);
+  animation-delay: -0.4166666667s;
+  background: #FF79DA;
+}
+.loading-spinner .spin8 {
+  transform: rotate(210deg);
+  animation-delay: -0.3333333333s;
+  background: #FF79DA;
+}
+.loading-spinner .spin9 {
+  transform: rotate(240deg);
+  animation-delay: -0.25s;
+  background: #FF79DA;
+}
+.loading-spinner .spin10 {
+  transform: rotate(270deg);
+  animation-delay: -0.1666666667s;
+  background: #FF79DA;
+}
+.loading-spinner .spin11 {
+  transform: rotate(300deg);
+  animation-delay: -0.0833333333s;
+  background: #FF79DA;
+}
+.loading-spinner .spin12 {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+  background: #FF79DA;
+}
+
 @media screen and (max-width: 767px) {
   body {
     width: auto;
@@ -22,109 +126,6 @@
   }
   body h1, body h2 {
     margin: 0;
-  }
-  /*loader*/
-  @keyframes loadspin {
-    0%, 90% {
-      opacity: 1;
-      z-index: 20;
-    }
-    0%, 100% {
-      height: 100%;
-      width: 100%;
-    }
-  }
-  @keyframes spinner {
-    0% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-  .parent-spinner {
-    position: fixed;
-    width: 0;
-    height: 0;
-    background: #9356DC;
-    opacity: 0;
-    animation: loadspin 3s;
-  }
-  .loading-spinner {
-    width: 100%;
-    height: 100%;
-    background: #9356DC;
-  }
-  .loading-spinner div {
-    box-sizing: content-box;
-    left: 50%;
-    top: 50%;
-    position: absolute;
-    animation: spinner 1s linear infinite;
-    width: 12px;
-    height: 24px;
-    border-radius: 6px/12px;
-    transform-origin: 6px 52px;
-  }
-  .loading-spinner .spin1 {
-    transform: rotate(0deg);
-    animation-delay: -0.9166666667s;
-    background: #FF79DA;
-  }
-  .loading-spinner .spin2 {
-    transform: rotate(30deg);
-    animation-delay: -0.8333333333s;
-    background: #FF79DA;
-  }
-  .loading-spinner .spin3 {
-    transform: rotate(60deg);
-    animation-delay: -0.75s;
-    background: #FF79DA;
-  }
-  .loading-spinner .spin4 {
-    transform: rotate(90deg);
-    animation-delay: -0.6666666667s;
-    background: #FF79DA;
-  }
-  .loading-spinner .spin5 {
-    transform: rotate(120deg);
-    animation-delay: -0.5833333333s;
-    background: #FF79DA;
-  }
-  .loading-spinner .spin6 {
-    transform: rotate(150deg);
-    animation-delay: -0.5s;
-    background: #FF79DA;
-  }
-  .loading-spinner .spin7 {
-    transform: rotate(180deg);
-    animation-delay: -0.4166666667s;
-    background: #FF79DA;
-  }
-  .loading-spinner .spin8 {
-    transform: rotate(210deg);
-    animation-delay: -0.3333333333s;
-    background: #FF79DA;
-  }
-  .loading-spinner .spin9 {
-    transform: rotate(240deg);
-    animation-delay: -0.25s;
-    background: #FF79DA;
-  }
-  .loading-spinner .spin10 {
-    transform: rotate(270deg);
-    animation-delay: -0.1666666667s;
-    background: #FF79DA;
-  }
-  .loading-spinner .spin11 {
-    transform: rotate(300deg);
-    animation-delay: -0.0833333333s;
-    background: #FF79DA;
-  }
-  .loading-spinner .spin12 {
-    transform: rotate(330deg);
-    animation-delay: 0s;
-    background: #FF79DA;
   }
   /*Accueil - Header*/
   .header-accueil {
