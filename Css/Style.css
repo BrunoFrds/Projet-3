@@ -69,62 +69,62 @@
   .loading-spinner .spin1 {
     transform: rotate(0deg);
     animation-delay: -0.9166666667s;
-    background: #ff79da;
+    background: #FF79DA;
   }
   .loading-spinner .spin2 {
     transform: rotate(30deg);
     animation-delay: -0.8333333333s;
-    background: #ff79da;
+    background: #FF79DA;
   }
   .loading-spinner .spin3 {
     transform: rotate(60deg);
     animation-delay: -0.75s;
-    background: #ff79da;
+    background: #FF79DA;
   }
   .loading-spinner .spin4 {
     transform: rotate(90deg);
     animation-delay: -0.6666666667s;
-    background: #ff79da;
+    background: #FF79DA;
   }
   .loading-spinner .spin5 {
     transform: rotate(120deg);
     animation-delay: -0.5833333333s;
-    background: #ff79da;
+    background: #FF79DA;
   }
   .loading-spinner .spin6 {
     transform: rotate(150deg);
     animation-delay: -0.5s;
-    background: #ff79da;
+    background: #FF79DA;
   }
   .loading-spinner .spin7 {
     transform: rotate(180deg);
     animation-delay: -0.4166666667s;
-    background: #ff79da;
+    background: #FF79DA;
   }
   .loading-spinner .spin8 {
     transform: rotate(210deg);
     animation-delay: -0.3333333333s;
-    background: #ff79da;
+    background: #FF79DA;
   }
   .loading-spinner .spin9 {
     transform: rotate(240deg);
     animation-delay: -0.25s;
-    background: #ff79da;
+    background: #FF79DA;
   }
   .loading-spinner .spin10 {
     transform: rotate(270deg);
     animation-delay: -0.1666666667s;
-    background: #ff79da;
+    background: #FF79DA;
   }
   .loading-spinner .spin11 {
     transform: rotate(300deg);
     animation-delay: -0.0833333333s;
-    background: #ff79da;
+    background: #FF79DA;
   }
   .loading-spinner .spin12 {
     transform: rotate(330deg);
     animation-delay: 0s;
-    background: #ff79da;
+    background: #FF79DA;
   }
   /*Accueil - Header*/
   .header-accueil {
@@ -187,7 +187,7 @@
     padding: 15px 25px 15px 25px;
     background: linear-gradient(#FF79DA, #9356DC);
     border-radius: 50px;
-    box-shadow: 0px 5px 8px 0px #CFCFCF;
+    box-shadow: 0px 5px 8px 0px #a09e9e;
   }
   .header-infos__button:hover {
     background: linear-gradient(#9356DC, #FF79DA);
@@ -214,7 +214,7 @@
     align-items: center;
     background-color: #F6F6F6;
     border-radius: 20px;
-    box-shadow: 0px 5px 8px 0px #CFCFCF;
+    box-shadow: 0px 5px 8px 0px #a09e9e;
     height: 70px;
     font-weight: bold;
     margin: 0px 20px 30px 25px;
@@ -270,7 +270,7 @@
     font-family: "Roboto-regular", serif;
     border-radius: 20px;
     background-color: #fff;
-    box-shadow: 0px 5px 8px 0px #CFCFCF;
+    box-shadow: 0px 5px 8px 0px #a09e9e;
     margin-bottom: 20px;
   }
   .resto-card a {
@@ -471,7 +471,7 @@
     margin: 0px 10px 15px 10px;
     background-color: #FFFFFF;
     border-radius: 15px;
-    box-shadow: 0px 5px 8px 0px #CFCFCF;
+    box-shadow: 0px 5px 8px 0px #a09e9e;
     cursor: pointer;
   }
   .menu-select:hover .menu-select__title {
@@ -546,7 +546,7 @@
     padding: 13px 45px 13px 45px;
     background: linear-gradient(#FF79DA, #9356DC);
     border-radius: 50px;
-    box-shadow: 0px 5px 8px 0px #CFCFCF;
+    box-shadow: 0px 5px 8px 0px #a09e9e;
   }
   .menu-button:hover {
     background: linear-gradient(#9356DC, #FF79DA);

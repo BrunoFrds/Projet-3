@@ -1,4 +1,5 @@
 @import "Base/Typography";
+@import "Base/Variables";
 
 @media screen and (max-width: 767px){
 
@@ -28,14 +29,14 @@
         position: fixed;
         width: 0;
         height: 0;
-        background: #9356DC;
+        background: $primary;
         opacity: 0;
         animation: loadspin 3s;
         }
     .loading-spinner{
         width: 100%;
         height: 100%;
-        background: #9356DC;
+        background: $primary;
         div{
         box-sizing: content-box; 
         left: 50%;
@@ -50,62 +51,62 @@
         .spin1{
             transform: rotate(0deg);
             animation-delay: -0.9166666666666666s;
-            background: #ff79da;
+            background: $secondary;
         }
         .spin2{
             transform: rotate(30deg);
             animation-delay: -0.8333333333333334s;
-            background: #ff79da;
+            background: $secondary;
         }
         .spin3{
             transform: rotate(60deg);
             animation-delay: -0.75s;
-            background: #ff79da;
+            background: $secondary;
         }
         .spin4{
             transform: rotate(90deg);
             animation-delay: -0.6666666666666666s;
-            background: #ff79da;
+            background: $secondary;
         }
         .spin5{
             transform: rotate(120deg);
             animation-delay: -0.5833333333333334s;
-            background: #ff79da;
+            background: $secondary;
         }
         .spin6{
             transform: rotate(150deg);
             animation-delay: -0.5s;
-            background: #ff79da;
+            background: $secondary;
         }
         .spin7{
             transform: rotate(180deg);
             animation-delay: -0.4166666666666667s;
-            background: #ff79da;
+            background: $secondary;
         }
         .spin8{
             transform: rotate(210deg);
             animation-delay: -0.3333333333333333s;
-            background: #ff79da;
+            background: $secondary;
         }
         .spin9{
             transform: rotate(240deg);
             animation-delay: -0.25s;
-            background: #ff79da;
+            background: $secondary;
         }
         .spin10{
             transform: rotate(270deg);
             animation-delay: -0.16666666666666666s;
-            background: #ff79da;
+            background: $secondary;
         }
         .spin11{
             transform: rotate(300deg);
             animation-delay: -0.08333333333333333s;
-            background: #ff79da;
+            background: $secondary;
         }
         .spin12{
             transform: rotate(330deg);
             animation-delay: 0s;
-            background: #ff79da;
+            background: $secondary;
         }    
     }
     /*Accueil - Header*/
@@ -145,7 +146,7 @@
         justify-content: space-around;
         align-items: center;
         padding-bottom: 55px;
-        background-color: #F6F6F6;
+        background-color: $background;
         &__title{
         text-align: center;
         font-size: 150%;
@@ -167,11 +168,11 @@
             text-decoration: none;
             font-size: 100%;
             padding: 15px 25px 15px 25px;
-            background: linear-gradient(#FF79DA, #9356DC);
+            background: linear-gradient($secondary, $primary);
             border-radius: 50px;
-            box-shadow: 0px 5px 8px 0px #CFCFCF;
+            box-shadow: 0px 5px 8px 0px $shadow;
             &:hover{
-                background: linear-gradient(#9356DC, #FF79DA);
+                background: linear-gradient($primary, $secondary);
             }
         }
     }
@@ -194,9 +195,9 @@
         &__text{
             display: flex;
             align-items: center;
-            background-color: #F6F6F6;
+            background-color: $background;
             border-radius: 20px;
-            box-shadow: 0px 5px 8px 0px #CFCFCF;
+            box-shadow: 0px 5px 8px 0px $shadow;
             height: 70px;
             font-weight: bold;
             margin: 0px 20px 30px 25px;
@@ -208,7 +209,7 @@
             &:hover{
                 background-color: #F5EDFF;
                 .fa-solid{
-                    color: #9356DC;
+                    color: $primary;
                 }
             }
         }
@@ -220,7 +221,7 @@
         position: relative;
         left: -13px;
         color: #fff;
-        background-color: #9356DC;
+        background-color: $primary;
         font-size: 85%;
         font-family: 'Roboto-thin', serif;
         width: 25px;
@@ -234,7 +235,7 @@
         flex-direction: column;
         width: 100%;
         height: 1230px;
-        background-color: #F6F6F6;
+        background-color: $background;
     }
     .resto-title{
         font-family: 'Roboto-black', serif;
@@ -253,7 +254,7 @@
         font-family: 'Roboto-regular', serif;
         border-radius: 20px;
         background-color: #fff;
-        box-shadow: 0px 5px 8px 0px #CFCFCF;
+        box-shadow: 0px 5px 8px 0px $shadow;
         margin-bottom: 20px;
         a{
             text-decoration: none;
@@ -282,7 +283,7 @@
             font-size: 10px;
             text-align: center;
             color: #008766;
-            background-color: #99E2D0;
+            background-color: $tertiary;
         }
         .fa-heart{
             color: #fff;
@@ -295,7 +296,7 @@
             cursor: pointer;
         }
         .fa-heart:hover{
-            background: linear-gradient(to bottom left, #9356DC, #FF79DA);
+            background: linear-gradient(to bottom left, $primary, $secondary);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -348,7 +349,7 @@
             margin: 0px 0px 10px 20px;
             font-size: 95%;
             &:hover{
-                color: #FF79DA;
+                color: $secondary;
             }
         }
         .fa-utensils{
@@ -411,7 +412,7 @@
         width: 100%;
         height: 1180px;
         border-radius: 40px 40px 0px 0px;
-        background-color: #F6F6F6;
+        background-color: $background;
     }
     .menu-name{
         display: flex;
@@ -431,7 +432,7 @@
             cursor: pointer;
         }
         .fa-heart:hover{
-            background: linear-gradient(to bottom left, #9356DC, #FF79DA);
+            background: linear-gradient(to bottom left, $primary, $secondary);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -445,7 +446,7 @@
         padding: 15px 0px 5px 0px;
         margin: 0px 0px 15px 20px;
         width: 40px;
-        border-bottom: 2px solid #99E2D0;
+        border-bottom: 2px solid $tertiary;
     }
     .menu-select{
         position: relative;
@@ -455,7 +456,7 @@
         margin: 0px 10px 15px 10px;
         background-color: #FFFFFF;
         border-radius: 15px;
-        box-shadow: 0px 5px 8px 0px #CFCFCF;
+        box-shadow: 0px 5px 8px 0px $shadow;
         cursor: pointer;
         &:hover .menu-select__title{
             width: 210px;
@@ -529,11 +530,11 @@
     text-decoration: none;
     margin: 30px 0px 50px 0px;
     padding: 13px 45px 13px 45px;
-    background: linear-gradient(#FF79DA, #9356DC);
+    background: linear-gradient($secondary, $primary);
     border-radius: 50px;
-    box-shadow: 0px 5px 8px 0px #CFCFCF;
+    box-shadow: 0px 5px 8px 0px $shadow;
         &:hover{
-            background: linear-gradient(#9356DC, #FF79DA);
+            background: linear-gradient($primary, $secondary);
         }
     }
     /*Menu - Animations*/
