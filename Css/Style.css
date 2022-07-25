@@ -220,19 +220,19 @@ footer h1 {
   text-align: center;
   font-family: "Roboto-regular", serif;
   font-size: 110%;
-  color: #767676;
+  color: #7E7E7E;
   margin: 15px 0px 30px 0px;
 }
 .infos-list__button {
   width: 175px;
   font-family: "Roboto-regular", serif;
-  color: #ffffff;
+  color: white;
   text-decoration: none;
   font-size: 100%;
   padding: 15px 25px 15px 25px;
   background: linear-gradient(#FF79DA, #9356DC);
   border-radius: 50px;
-  box-shadow: 0px 5px 8px 0px #a09e9e;
+  box-shadow: 0px 5px 8px 0px #A09E9E;
 }
 .infos-list__button:hover {
   background: linear-gradient(#9356DC, #FF79DA);
@@ -262,7 +262,7 @@ footer h1 {
   align-items: center;
   background-color: #F6F6F6;
   border-radius: 20px;
-  box-shadow: 0px 5px 8px 0px #a09e9e;
+  box-shadow: 0px 5px 8px 0px #A09E9E;
   height: 70px;
   font-weight: bold;
   margin: 0px 20px 30px 25px;
@@ -285,7 +285,7 @@ footer h1 {
   align-items: center;
   position: relative;
   left: -13px;
-  color: #ffffff;
+  color: white;
   background-color: #9356DC;
   font-size: 85%;
   font-family: "Roboto-thin", serif;
@@ -322,8 +322,8 @@ footer h1 {
   height: 250px;
   font-family: "Roboto-regular", serif;
   border-radius: 20px;
-  background-color: #ffffff;
-  box-shadow: 0px 5px 8px 0px #a09e9e;
+  background-color: white;
+  box-shadow: 0px 5px 8px 0px #A09E9E;
   margin-bottom: 20px;
 }
 .resto-card a {
@@ -356,7 +356,7 @@ footer h1 {
   background-color: #99E2D0;
 }
 .resto-card .fa-heart {
-  color: #ffffff;
+  color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   position: relative;
@@ -459,7 +459,7 @@ footer h1 {
   padding: 30px 0px 20px 20px;
 }
 .menu-name .fa-heart {
-  color: #ffffff;
+  color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   font-size: 150%;
@@ -490,9 +490,9 @@ footer h1 {
   width: 350px;
   height: 70px;
   margin: 0px 10px 15px 10px;
-  background-color: #ffffff;
+  background-color: white;
   border-radius: 15px;
-  box-shadow: 0px 5px 8px 0px #a09e9e;
+  box-shadow: 0px 5px 8px 0px #A09E9E;
   cursor: pointer;
 }
 .menu-select:hover .menu-select__title {
@@ -552,7 +552,7 @@ footer h1 {
   transition: transform 0.5s linear;
 }
 .menu-select .fa-circle-check {
-  color: #ffffff;
+  color: white;
   font-size: 140%;
   transform: rotate(0deg);
   transition: transform 0.5s linear;
@@ -562,13 +562,13 @@ footer h1 {
 .menu-button {
   font-family: "Roboto-regular", serif;
   font-size: 15px;
-  color: #ffffff;
+  color: white;
   text-decoration: none;
   margin: 30px 0px 50px 0px;
   padding: 13px 45px 13px 45px;
   background: linear-gradient(#FF79DA, #9356DC);
   border-radius: 50px;
-  box-shadow: 0px 5px 8px 0px #a09e9e;
+  box-shadow: 0px 5px 8px 0px #A09E9E;
 }
 .menu-button:hover {
   background: linear-gradient(#9356DC, #FF79DA);
