@@ -31,8 +31,7 @@
 }
 /* Liste des menus */
 .menu-list{
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     align-items: center;
     position: relative;
     top: -40px;
@@ -128,9 +127,7 @@
         transition: transform .5s linear;
     }
     &__check{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-center;
         position: absolute;
         top: 0px;
         left: 290px;
@@ -147,7 +144,6 @@
     transform: rotate(0deg);
     transition: transform .5s linear;
     }
-
 }
 /* Bouton commander */
 .menu-button{

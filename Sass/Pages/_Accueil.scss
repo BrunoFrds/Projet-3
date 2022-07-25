@@ -1,8 +1,6 @@
 /* Location */
 .infos-position{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
     background-color: #EAEAEA;
     box-shadow: inset 0px 5px 5px -2px #D4D4D4;
     .fa-location-dot{
@@ -20,8 +18,7 @@
 }
 /* Infos */
 .infos-list{
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 55px;
@@ -57,8 +54,7 @@
 }
 /* Fonctionnement */
 .rules{
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     width: 100%;
     height: 440px;
 }
@@ -68,8 +64,7 @@
     padding: 40px 0px 35px 20px;
 }
 .rules-list{
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     font-family: 'Roboto-regular', serif;
     &__text{
         display: flex;
@@ -94,9 +89,7 @@
     }
 }
 .rules-list__number{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
     position: relative;
     left: -13px;
     color: $white;
@@ -110,8 +103,7 @@
 }
 /* Liste des restaurants */
 .resto{
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     width: 100%;
     height: 1230px;
     background-color: $background;
@@ -122,8 +114,7 @@
     padding: 45px 0px 0px 20px;
 }
 .resto-grid{
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     margin: auto;
 }
 .resto-card{
