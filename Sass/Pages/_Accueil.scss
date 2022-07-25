@@ -152,7 +152,7 @@
         padding: 5px 0px 5px 0px;
         font-size: 10px;
         text-align: center;
-        color: #008766;
+        color: darken($tertiary, 50%);
         background-color: $tertiary;
     }
     .fa-heart{
