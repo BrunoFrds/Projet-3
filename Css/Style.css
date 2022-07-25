@@ -226,7 +226,7 @@ footer h1 {
 .infos-list__button {
   width: 175px;
   font-family: "Roboto-regular", serif;
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   font-size: 100%;
   padding: 15px 25px 15px 25px;
@@ -285,7 +285,7 @@ footer h1 {
   align-items: center;
   position: relative;
   left: -13px;
-  color: #fff;
+  color: #ffffff;
   background-color: #9356DC;
   font-size: 85%;
   font-family: "Roboto-thin", serif;
@@ -322,13 +322,13 @@ footer h1 {
   height: 250px;
   font-family: "Roboto-regular", serif;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: 0px 5px 8px 0px #a09e9e;
   margin-bottom: 20px;
 }
 .resto-card a {
   text-decoration: none;
-  color: #000000;
+  color: black;
 }
 .resto-card__img {
   height: 175px;
@@ -356,7 +356,7 @@ footer h1 {
   background-color: #99E2D0;
 }
 .resto-card .fa-heart {
-  color: #fff;
+  color: #ffffff;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   position: relative;
@@ -459,7 +459,7 @@ footer h1 {
   padding: 30px 0px 20px 20px;
 }
 .menu-name .fa-heart {
-  color: #fff;
+  color: #ffffff;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   font-size: 150%;
@@ -490,7 +490,7 @@ footer h1 {
   width: 350px;
   height: 70px;
   margin: 0px 10px 15px 10px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 0px 5px 8px 0px #a09e9e;
   cursor: pointer;
@@ -552,7 +552,7 @@ footer h1 {
   transition: transform 0.5s linear;
 }
 .menu-select .fa-circle-check {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 140%;
   transform: rotate(0deg);
   transition: transform 0.5s linear;
@@ -562,7 +562,7 @@ footer h1 {
 .menu-button {
   font-family: "Roboto-regular", serif;
   font-size: 15px;
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   margin: 30px 0px 50px 0px;
   padding: 13px 45px 13px 45px;
