@@ -81,7 +81,7 @@
             padding: 0px 30px 0px 10px;
             }
         &:hover{
-            background-color: #F5EDFF;
+            background-color: lighten($primary, 35%);
             .fa-solid{
                 color: $primary;
             }

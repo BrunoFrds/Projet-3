@@ -273,7 +273,7 @@ footer h1 {
   padding: 0px 30px 0px 10px;
 }
 .rules-list__text:hover {
-  background-color: #F5EDFF;
+  background-color: #f2eafb;
 }
 .rules-list__text:hover .fa-solid {
   color: #9356DC;
