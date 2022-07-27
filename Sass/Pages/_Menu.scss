@@ -84,14 +84,26 @@
     border-radius: 15px;
     box-shadow: 0px 5px 8px 0px $shadow;
     cursor: pointer;
+    @media screen and (min-width:768px) and (max-width:1023px){
+        width: 600px;
+    }
     &:hover .menu-select__title{
         width: 210px;
+        @media screen and (min-width:768px) and (max-width:1023px){
+            width: 400px;
+        }
     }
     &:hover .menu-select__prix{
         transform: translate(0px);
+        @media screen and (min-width:768px) and (max-width:1023px){
+            transform: translate(250px);
+        }
     }
     &:hover .menu-select__check{
         transform: translate(0px);
+        @media screen and (min-width:768px) and (max-width:1023px){
+            transform: translate(250px);
+        }
     }
     &:hover .fa-circle-check{
         transform: rotate(360deg);
@@ -125,6 +137,9 @@
         padding: 40px 20px 10px 0px;
         transform: translate(60px);
         transition: transform .5s linear;
+        @media screen and (min-width:768px) and (max-width:1023px){
+            transform: translate(310px);
+        }
     }
     &__check{
         @include flex-center;
@@ -137,6 +152,9 @@
         border-radius: 0px 15px 15px 0px;
         transform: translate(60px);
         transition: transform .5s linear;
+        @media screen and (min-width:768px) and (max-width:1023px){
+            transform: translate(310px);
+        }
     }
     .fa-circle-check{
     color: white;
