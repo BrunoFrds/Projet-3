@@ -57,6 +57,9 @@
     @include flex-column;
     width: 100%;
     height: 440px;
+    @media screen and (min-width:1024px){
+        height: 250px;
+    }
 }
 .rules-title{
     font-family: 'Roboto-black', serif;
@@ -69,6 +72,11 @@
     @media screen and (min-width:768px) and (max-width:1023px){
         display: flex;
         align-items: center;
+    }
+    @media screen and (min-width:1024px){
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
     }
     &__text{
         display: flex;
@@ -83,6 +91,9 @@
         @media screen and (min-width:768px) and (max-width:1023px){
             width: 400px;
         }
+        @media screen and (min-width:1024px){
+            width: 330px;
+        }    
         .fa-solid{
             color: $grey-light;
             padding: 0px 30px 0px 10px;
@@ -114,7 +125,7 @@
     width: 100%;
     height: 1230px;
     background-color: $background;
-    @media screen and (min-width:768px) and (max-width:1023px){
+    @media screen and (min-width:768px){
         height: 740px;
     }
 }
@@ -126,7 +137,7 @@
 .resto-grid{
     @include flex-column;
     margin: auto;
-    @media screen and (min-width:768px) and (max-width:1023px){
+    @media screen and (min-width:768px){
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
@@ -141,12 +152,16 @@
     background-color: white;
     box-shadow: 0px 5px 8px 0px $shadow;
     margin-bottom: 20px;
-    @media screen and (min-width:768px) and (max-width:1023px){
+    @media screen and (min-width:768px){
         margin-bottom: 50px;
     }
+    @media screen and (min-width:1024px){
+        width: 450px;
+    }
+
     a{
         text-decoration: none;
-        color: black;    
+        color: black; 
     }
     &__img{
         height: 175px;
@@ -154,13 +169,14 @@
         overflow: hidden;
     }
     &__title{
-        font-size: 80%;
-        font-family: 'Roboto-black', serif;
+        font-size: 110%;
+        font-weight: bold;
+        font-family: 'Roboto-regular', serif;
         padding: 10px 0px 5px 10px;
+        line-height: 26px;
     }
     &__location{
-        margin: 0;
-        padding: 0px 0px 0px 10px;
+        font-weight: normal;
     }
     &__new{
         position: relative;
@@ -172,6 +188,10 @@
         text-align: center;
         color: darken($tertiary, 50%);
         background-color: $tertiary;
+        @media screen and (min-width:1024px){
+            top: -240px;
+            left: 350px;    
+        }
     }
     .fa-heart{
         color: white;
@@ -182,6 +202,10 @@
         left: 285px;
         font-size: 150%;
         cursor: pointer;
+        @media screen and (min-width:1024px){
+            top: -40px;
+            left: 380px;    
+        }
     }
     .fa-heart:hover{
         background: linear-gradient(to bottom left, $primary, $secondary);
