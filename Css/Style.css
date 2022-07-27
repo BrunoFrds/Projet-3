@@ -571,7 +571,8 @@ footer h1 {
 @media screen and (min-width: 1099px) {
   .menu-grid {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
   }
 }
 
