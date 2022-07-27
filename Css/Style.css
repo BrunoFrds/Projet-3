@@ -257,6 +257,12 @@ footer h1 {
   flex-direction: column;
   font-family: "Roboto-regular", serif;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .rules-list {
+    display: flex;
+    align-items: center;
+  }
+}
 .rules-list__text {
   display: flex;
   align-items: center;
@@ -267,6 +273,11 @@ footer h1 {
   font-weight: bold;
   margin: 0px 20px 30px 25px;
   cursor: default;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .rules-list__text {
+    width: 400px;
+  }
 }
 .rules-list__text .fa-solid {
   color: #7E7E7E;
@@ -303,6 +314,11 @@ footer h1 {
   height: 1230px;
   background-color: #F6F6F6;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .resto {
+    height: 740px;
+  }
+}
 
 .resto-title {
   font-family: "Roboto-black", serif;
@@ -314,6 +330,13 @@ footer h1 {
   display: flex;
   flex-direction: column;
   margin: auto;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .resto-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
 }
 
 .resto-card {
