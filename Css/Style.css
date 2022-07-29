@@ -39,7 +39,7 @@
   height: 0;
   background: #9356DC;
   opacity: 0;
-  animation: loadspin 600s;
+  animation: loadspin 3s;
 }
 
 .loading-spinner {
