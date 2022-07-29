@@ -18,7 +18,7 @@
     height: 0;
     background: $primary;
     opacity: 0;
-    animation: loadspin 3s;
+    animation: loadspin 600s;
     }
 .loading-spinner{
     width: 100%;
@@ -27,7 +27,7 @@
     div{
     box-sizing: content-box; 
     left: 50%;
-    top: 50%;
+    top: 44%;
     position: absolute;
     animation: spinner 1s linear infinite;
     width: 12px;
